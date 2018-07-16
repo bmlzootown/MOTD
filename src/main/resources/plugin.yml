@@ -1,0 +1,30 @@
+name: MOTD
+main: ml.bmlzootown.MOTD
+version: 0.0.1
+author: bmlzootown
+commands:
+  motd:
+    description: Displays the current MOTD
+    permission: motd.motd
+  setmotd:
+    description: Sets the MOTD
+    permission: motd.set
+  reloadmotd:
+    description: Reloads config
+    permission: motd.reload
+permissions:
+  motd.*:
+    description: Access to all MOTD commands
+    children:
+      motd.motd: true
+      motd.set: true
+      motd.reload: true
+  motd.motd:
+    description: Displays current MOTD
+    default: op
+  motd.set:
+    description: Sets MOTD
+    default: op
+  motd.reload:
+    description: Reloads config
+    default: op
