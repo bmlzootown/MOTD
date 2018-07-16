@@ -1,0 +1,2 @@
+# MOTD
+Simple MOTD plugin
