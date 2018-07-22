@@ -2,6 +2,7 @@ name: MOTD
 main: ml.bmlzootown.MOTD
 version: 0.0.1
 author: bmlzootown
+api-version: 1.13
 commands:
   motd:
     description: Displays the current MOTD
