@@ -1,6 +1,6 @@
-name: MOTD
+name: ${project.name}
 main: ml.bmlzootown.MOTD
-version: 0.0.1
+version: ${project.version}
 author: bmlzootown
 api-version: 1.13
 commands:
