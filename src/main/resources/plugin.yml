@@ -2,7 +2,7 @@ name: ${project.name}
 main: ml.bmlzootown.MOTD
 version: ${project.version}
 author: bmlzootown
-api-version: 1.13
+api-version: 1.14
 commands:
   motd:
     description: Displays the current MOTD
